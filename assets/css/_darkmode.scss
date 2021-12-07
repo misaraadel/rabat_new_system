@@ -1,0 +1,80 @@
+.dark-mode{
+    background-color: rgb(22, 28, 36);
+    
+    * {
+        &::-webkit-scrollbar-track {
+            background-color: #18191A;
+        }
+    }
+    .login{
+        .form-data{
+            background-color: #18191A;
+            box-shadow: 0px 0px 10px rgba($color: #333 , $alpha: .4);
+        }
+    }
+    .navbar , .navigation-side-bar{
+        background-color: #18191A;
+        border-color: #18191A;
+        .navbar-nav{
+            .list{
+                a{
+                    i , span{
+                        color: #f7f7f7 !important;
+                    }
+                }
+                &.active , &:hover{
+                    background-color:rgb(22, 28, 36) !important;
+                }
+            }
+        }
+    }
+    .form-control{
+        border-color: rgba($color: #f7f7f7  , $alpha: .4) !important;
+        color: #fff;
+        &::placeholder{
+            color: #f7f7f7 !important;
+        }
+    }
+    .login .image-content , .modal-content{
+        background-color: rgb(22, 28, 36);
+        box-shadow: 0px 0px 10px rgba($color: #333 , $alpha: .4);
+    }
+    .modal p{
+        color: #f7f7f7;
+    }
+    .main-content {
+        .report-box{
+            background-color: #18191A;
+            box-shadow: 0px 0px 10px rgba($color: #f7f7f7 , $alpha: .03);
+            p{
+               color: #808080 !important;
+           }
+           h5{
+               color: #fff !important;
+           }
+        }
+    }
+    .main-session{
+        .box{
+            box-shadow: 0px 0px 10px rgba($color: #fff , $alpha: .05);
+            .content{
+                background-color: #333;
+                h4{
+                    color: #f8f8f8;
+                }
+            }
+        }
+        .calculate-list{
+            .data-list , .calculator{ 
+                background-color: #18191A !important;
+                box-shadow: 0px 0px 10px rgba($color: #f7f7f7 , $alpha: .03);
+                td {
+                    color: #fff !important;
+                }
+            }
+            .payment ,  .btn-num{
+                background-color: #333 !important;
+            }
+        }
+    }
+}
