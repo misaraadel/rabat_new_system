@@ -59,4 +59,27 @@
     .form-content.flex-contain{
         display: none;
     }
+
+    .navbar .content .user-content li ,
+    .theme{
+        margin: 0px 3px;
+    }
+
+    .navbar .content .user-content li .circle{
+        width: 40px;
+        height: 40px;
+    }
+
+    .main-content .report-box .box-icon .box-img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .main-content .report-box h5{
+        font-size: 15px;
+    }
+
+    .heading-content .heading{
+        font-size: 25px;
+    }
 }
